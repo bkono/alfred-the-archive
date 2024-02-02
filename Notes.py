@@ -227,6 +227,13 @@ class Search(Notes):
                 title = qs.zettel_id
         return title
 
+    def getNoteLinkTitleWithZettelIdAtEnd(self, path):
+        title = self.getNoteTitle(path)
+        qs = QuerySplitter(title)
+        if qs.zettel_id:
+            title = f"{qs.title} [[{qs.zettel_id}]]"
+        return title
+
     def getNoteTitle(self, path):
         content = self._getFileContent(path)
         title = self.getNoteFilename(path)

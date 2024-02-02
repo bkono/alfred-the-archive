@@ -12,6 +12,8 @@ search = Search()
 note_path = Tools.getEnv("path_query1")
 note_title = search.getNoteTitle(note_path)
 note_link_title = search.getNoteLinkTitle(note_path)
+note_link_title_with_zettel_at_end = search.getNoteLinkTitleWithZettelIdAtEnd(note_path)
+
 filename = pathname2url(os.path.basename(note_path))
 back_query = "<EMPTY>" if not query else query
 
@@ -33,6 +35,12 @@ actions = [
         "icon": "icons/link.png",
         "subtitle": "Copy a Wiki Link for \"{0}\" to the Clipboard".format(note_title),
         "title": "Wiki Link",
+    },
+    {
+        "arg": "zettel_link|>{0}".format(note_link_title_with_zettel_at_end),
+        "icon": "icons/link.png",
+        "subtitle": "Copy a Zettelkasten Link for \"{0}\" to the Clipboard".format(note_link_title_with_zettel_at_end),
+        "title": "Zettelkasten Link",
     },
     {
         "arg": "editor|>{0}".format(note_path),

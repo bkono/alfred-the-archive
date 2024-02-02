@@ -5,9 +5,22 @@
 	<key>bundleid</key>
 	<string>com.apple.alfred.workflow.the-archive</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>014FEF02-CDD3-4F8C-8ED6-19467B4EFE18</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FA40A7DB-25B4-464C-B269-EC046612AD60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>06634071-A34F-47EA-9A93-224F1E437E99</key>
 		<array>
 			<dict>
@@ -99,6 +112,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>2CED676C-CF1B-4E76-9732-66A9EEFF233A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F52FF043-69BB-46A9-AB60-A8E01228B984</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>A4A95B3D-BE6A-45BC-A53B-74984F4F48A7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -164,6 +189,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C36841B1-1B96-411D-BF40-7B4A70E3AE09</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2CED676C-CF1B-4E76-9732-66A9EEFF233A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FA40A7DB-25B4-464C-B269-EC046612AD60</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -314,6 +352,16 @@
 				<string>B78F0AC4-5704-4E41-A5C5-41D7EF829577</string>
 				<key>modifiers</key>
 				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>014FEF02-CDD3-4F8C-8ED6-19467B4EFE18</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -923,12 +971,14 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>https://ko-fi.com/pryley</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -984,12 +1034,14 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>https://github.com/pryley/alfred-the-archive/blob/master/README.md</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1078,8 +1130,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1129,6 +1179,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -1173,8 +1225,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1255,6 +1305,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -1266,6 +1318,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>ar:config</string>
 			</dict>
@@ -1340,8 +1394,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1446,8 +1498,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1556,6 +1606,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>ar:create</string>
 			</dict>
@@ -1595,6 +1647,10 @@
 			<dict>
 				<key>delimiter</key>
 				<string>|&gt;</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -1610,6 +1666,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>ar:todo</string>
 			</dict>
@@ -1635,8 +1693,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1802,8 +1858,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1823,12 +1877,14 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>thearchive://match/{query}</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1859,6 +1915,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>python import_image.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>insert_image.py</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>42848B7A-9D43-4C79-9E97-A8990FACBAE7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -1878,6 +1957,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -1914,18 +1995,18 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>python import_image.py "{query}"</string>
+				<string></string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>insert_image.py</string>
+				<string>get_title_with_zettel_at_end.py</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>42848B7A-9D43-4C79-9E97-A8990FACBAE7</string>
+			<string>014FEF02-CDD3-4F8C-8ED6-19467B4EFE18</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -2035,8 +2116,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -2054,6 +2133,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>ar:search</string>
 			</dict>
@@ -2147,6 +2228,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{var:action2}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2CED676C-CF1B-4E76-9732-66A9EEFF233A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -2162,6 +2260,20 @@
 						<string>editor</string>
 						<key>uid</key>
 						<string>6D724BD9-BEF7-4D28-8DCC-A594E968CD3E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action1}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>zettel_link</string>
+						<key>outputlabel</key>
+						<string>zettel_link</string>
+						<key>uid</key>
+						<string>F52FF043-69BB-46A9-AB60-A8E01228B984</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -2222,6 +2334,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2378,6 +2492,10 @@ end alfred_script</string>
 			<dict>
 				<key>delimiter</key>
 				<string>|&gt;</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -2412,6 +2530,10 @@ end alfred_script</string>
 			<dict>
 				<key>delimiter</key>
 				<string>|&gt;</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -2843,598 +2965,616 @@ end trimText</string>
 	<string>This is an comprehensive workflow for The Archive that helps you work with your notes more efficiently.</string>
 	<key>uidata</key>
 	<dict>
+		<key>014FEF02-CDD3-4F8C-8ED6-19467B4EFE18</key>
+		<dict>
+			<key>note</key>
+			<string>Generate link with zettel at end</string>
+			<key>xpos</key>
+			<real>1010</real>
+			<key>ypos</key>
+			<real>1225</real>
+		</dict>
 		<key>06634071-A34F-47EA-9A93-224F1E437E99</key>
 		<dict>
 			<key>note</key>
 			<string>Generate zettel link</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 		</dict>
 		<key>0BC841DD-23D7-4621-BB77-3C6851C20031</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<real>1150</real>
 			<key>ypos</key>
-			<integer>340</integer>
+			<real>340</real>
 		</dict>
 		<key>0F5540E1-5999-4328-9C24-3C9E18E2746D</key>
 		<dict>
 			<key>note</key>
 			<string>Open README.md</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>160</integer>
+			<real>160</real>
 		</dict>
 		<key>0F836984-A230-4C9E-A376-2A6F54239A8D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>610</integer>
+			<real>610</real>
 		</dict>
 		<key>13D7AF95-E68C-4207-AD54-532455FFBC15</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>2555</integer>
+			<real>2555</real>
 		</dict>
 		<key>1AD1E2CF-FCB9-45E5-B8F2-9C6B0CEAABD6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1610</integer>
+			<real>1610</real>
 			<key>ypos</key>
-			<integer>1660</integer>
+			<real>1660</real>
 		</dict>
 		<key>22568BCE-A99B-499A-B22B-D125B36C3A97</key>
 		<dict>
 			<key>note</key>
 			<string>Toggle the task</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>760</integer>
+			<real>760</real>
 		</dict>
 		<key>28072C72-6F5F-49D3-9C79-F39D03C75A11</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>1660</integer>
+			<real>1660</real>
+		</dict>
+		<key>2CED676C-CF1B-4E76-9732-66A9EEFF233A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1810</real>
+			<key>ypos</key>
+			<real>1615</real>
 		</dict>
 		<key>3078B7FC-DAD0-48C1-938B-E2C5102800D8</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>760</integer>
+			<real>760</real>
 		</dict>
 		<key>341A03B4-7E79-4AD7-A347-AF17C634D4FF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>2110</integer>
+			<real>2110</real>
 		</dict>
 		<key>3666E55C-5EA1-4C6A-9565-22A55CE17403</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1210</integer>
+			<real>1210</real>
 			<key>ypos</key>
-			<integer>1690</integer>
+			<real>1690</real>
 		</dict>
 		<key>42489888-94A8-4578-A4CB-BCAE3F2D7339</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>2010</integer>
+			<real>2010</real>
 			<key>ypos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 		</dict>
 		<key>42848B7A-9D43-4C79-9E97-A8990FACBAE7</key>
 		<dict>
 			<key>note</key>
 			<string>Import image</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>1210</integer>
+			<real>1085</real>
 		</dict>
 		<key>47A8B5B3-11A9-4177-A3DA-18CDE6C4F71D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 		</dict>
 		<key>51A1F4B9-D0F3-40BD-AB30-22AF874BA1A9</key>
 		<dict>
 			<key>note</key>
 			<string>Change heading level</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 		</dict>
 		<key>524CFE69-2161-4618-BC65-7D380B0B3EAD</key>
 		<dict>
 			<key>note</key>
 			<string>Search tasks</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>910</integer>
+			<real>910</real>
 		</dict>
 		<key>5679BD15-58A7-4FCF-9737-E6B573CE4779</key>
 		<dict>
 			<key>xpos</key>
-			<integer>810</integer>
+			<real>810</real>
 			<key>ypos</key>
-			<integer>345</integer>
+			<real>345</real>
 		</dict>
 		<key>59FC67F4-40A5-440E-B854-0B65823BD164</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2410</integer>
+			<real>2410</real>
 			<key>ypos</key>
-			<integer>1660</integer>
+			<real>1660</real>
 		</dict>
 		<key>629E7681-4B3B-44F8-931C-617775EE6CFA</key>
 		<dict>
 			<key>note</key>
 			<string>Search notes</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 		</dict>
 		<key>657FD06E-6635-4C54-88C2-8FF658370FD7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 			<key>ypos</key>
-			<integer>1660</integer>
+			<real>1660</real>
 		</dict>
 		<key>65FB1EF4-D09E-4070-BB2E-E3FF6FB331EA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 		</dict>
 		<key>699C78CF-86C9-47FA-A077-DB7462FDE43F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<real>350</real>
 			<key>ypos</key>
-			<integer>640</integer>
+			<real>640</real>
 		</dict>
 		<key>6B5486CD-8FE6-493A-AB5E-DC1E63F6979F</key>
 		<dict>
 			<key>note</key>
 			<string>Get the random note</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>460</integer>
+			<real>460</real>
 		</dict>
 		<key>724B20C2-2A71-4470-AA68-E9B53C3E089D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>82C3724E-6E6D-4282-A8D5-F528A6D5A0AE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>2410</integer>
+			<real>2410</real>
 		</dict>
 		<key>8A5F7A4E-FC3A-466E-A53A-38313E9F8022</key>
 		<dict>
 			<key>note</key>
 			<string>Open in default editor</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>910</integer>
+			<real>910</real>
 		</dict>
 		<key>8C6B9363-12F2-4E71-8CE7-D1D9777F05C3</key>
 		<dict>
 			<key>note</key>
 			<string>Make a donation</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>966EB023-178A-428E-B2CB-576954E4A33A</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>910</integer>
+			<real>910</real>
 		</dict>
 		<key>97B0EE32-A8A1-405E-B0F2-C459AC7FC3E3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1610</integer>
+			<real>1610</real>
 			<key>ypos</key>
-			<integer>490</integer>
+			<real>490</real>
 		</dict>
 		<key>9C2A4DF6-ECF8-45B0-9980-FBE6B1DE2739</key>
 		<dict>
 			<key>note</key>
 			<string>Fetch the URL</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>A145A5D1-90C7-4FEC-B0F3-8FFE5F6B10D4</key>
 		<dict>
 			<key>note</key>
 			<string>Open a random note</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>460</integer>
+			<real>460</real>
 		</dict>
 		<key>A2D9130D-E0ED-4A2F-9D37-4EE26F2B16F9</key>
 		<dict>
 			<key>note</key>
 			<string>Create a note</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>760</integer>
+			<real>760</real>
 		</dict>
 		<key>A4A95B3D-BE6A-45BC-A53B-74984F4F48A7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 			<key>ypos</key>
-			<integer>1665</integer>
+			<real>1665</real>
 		</dict>
 		<key>A73C0944-0E7B-483F-BC14-1A0089887B05</key>
 		<dict>
 			<key>note</key>
 			<string>Generate markdown link</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>1510</integer>
+			<real>1510</real>
 		</dict>
 		<key>A8B79535-E3CC-4A12-B1A0-CBE9634E5804</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>810</integer>
+			<real>810</real>
 			<key>ypos</key>
-			<integer>610</integer>
+			<real>610</real>
 		</dict>
 		<key>ABB1A2DA-ECDB-4ECF-AAAE-EACF4246706D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>460</integer>
+			<real>460</real>
 		</dict>
 		<key>B45C99C4-5814-48E9-A8C4-426F939F7335</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 			<key>ypos</key>
-			<integer>1715</integer>
+			<real>1715</real>
 		</dict>
 		<key>B58A48B9-E9D2-46BA-B2FC-8D52D0002AFD</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>910</integer>
+			<real>910</real>
 		</dict>
 		<key>B6D96F39-3BF6-4663-BF58-33CD36A2433D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2410</integer>
+			<real>2410</real>
 			<key>ypos</key>
-			<integer>460</integer>
+			<real>460</real>
 		</dict>
 		<key>B78F0AC4-5704-4E41-A5C5-41D7EF829577</key>
 		<dict>
 			<key>xpos</key>
-			<integer>810</integer>
+			<real>810</real>
 			<key>ypos</key>
-			<integer>1170</integer>
+			<real>1170</real>
 		</dict>
 		<key>BC34D5F9-85CA-4E33-A951-941FE061EEE8</key>
 		<dict>
 			<key>note</key>
 			<string>Open donate URL</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>BE57B8E8-5E6A-43EC-8087-342FE3342B6C</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>1060</integer>
+			<real>1060</real>
 		</dict>
 		<key>C36841B1-1B96-411D-BF40-7B4A70E3AE09</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<real>410</real>
 			<key>ypos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 		</dict>
 		<key>C60A62FF-9B59-4C3C-99F3-807373F2125E</key>
 		<dict>
 			<key>note</key>
 			<string>Open in The Archive</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>1060</integer>
+			<real>1060</real>
 		</dict>
 		<key>C767AF6B-DF2C-40A1-8F23-916EDE028F7F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1265</integer>
+			<real>1265</real>
 			<key>ypos</key>
-			<integer>1690</integer>
+			<real>1690</real>
 		</dict>
 		<key>C813B26C-8583-4087-9E6E-1FAC323A7F0F</key>
 		<dict>
 			<key>note</key>
 			<string>Delete note</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>1660</integer>
+			<real>1660</real>
 		</dict>
 		<key>C9B46D25-C13C-4CBC-A087-787CB09B06E5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2410</integer>
+			<real>2410</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>CB491715-463C-4A1F-BF00-4EF95002AF65</key>
 		<dict>
 			<key>note</key>
 			<string>Search tags</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>1060</integer>
+			<real>1060</real>
 		</dict>
 		<key>CCFB27EC-FE2A-4853-92F9-66D2E16EC154</key>
 		<dict>
 			<key>xpos</key>
-			<integer>750</integer>
+			<real>750</real>
 			<key>ypos</key>
-			<integer>790</integer>
+			<real>790</real>
 		</dict>
 		<key>CE0C3E3D-3480-4860-8AEF-D91987553D48</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>1210</integer>
+			<real>1210</real>
 			<key>ypos</key>
-			<integer>1060</integer>
+			<real>1060</real>
 		</dict>
 		<key>D0A0BB4A-D8DC-4463-A00F-06ABF17CF7F3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 			<key>ypos</key>
-			<integer>1765</integer>
+			<real>1765</real>
 		</dict>
 		<key>D0E510A1-8928-4339-A865-18534BEB6E01</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2410</integer>
+			<real>2410</real>
 			<key>ypos</key>
-			<integer>1510</integer>
+			<real>1510</real>
 		</dict>
 		<key>D276EC74-1F27-4BA5-97A8-A4E9D1020D2A</key>
 		<dict>
 			<key>note</key>
 			<string>Create the note</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>610</integer>
+			<real>610</real>
 		</dict>
 		<key>D2AD3BCE-73FA-4344-B003-A57E66E4AC6B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 			<key>ypos</key>
-			<integer>1615</integer>
+			<real>1565</real>
 		</dict>
 		<key>D4A81EE0-15F4-4F07-B5B6-FD9E7646EB3A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>805</integer>
+			<real>805</real>
 			<key>ypos</key>
-			<integer>790</integer>
+			<real>790</real>
 		</dict>
 		<key>D6A73E77-7D81-45B7-AC0B-B6E59D5B94DD</key>
 		<dict>
 			<key>note</key>
 			<string>Get the note title</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<real>1010</real>
 			<key>ypos</key>
-			<integer>910</integer>
+			<real>910</real>
 		</dict>
 		<key>D7113CA2-175F-4D98-B738-A732E4826D02</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<real>410</real>
 			<key>ypos</key>
-			<integer>1210</integer>
+			<real>1210</real>
 		</dict>
 		<key>D7F05A73-355B-4C77-A4F8-F301CF68FB9A</key>
 		<dict>
 			<key>note</key>
 			<string>Paste link</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 		</dict>
 		<key>DBE958B2-368A-48F9-A8AB-1DC9FC300B27</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1500</integer>
+			<real>1500</real>
 			<key>ypos</key>
-			<integer>1690</integer>
+			<real>1690</real>
 		</dict>
 		<key>DE1B8FAF-256C-4AD9-BE4E-9EBCFB71C52D</key>
 		<dict>
 			<key>note</key>
 			<string>Create note from an URL</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>E0CED2B6-51DD-4178-B6BF-5FC59F6EE725</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>610</integer>
+			<real>610</real>
 		</dict>
 		<key>E1BE1374-4C3C-483D-B093-3AFB164AA55A</key>
 		<dict>
 			<key>note</key>
 			<string>Open donate URL</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>160</integer>
+			<real>160</real>
 		</dict>
 		<key>E83305CB-1BAA-457E-93A8-0B9C7689D3C7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<real>1360</real>
 		</dict>
 		<key>EB8A1BFE-4152-4203-A6B8-DAA827BA4932</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1810</integer>
+			<real>1810</real>
 			<key>ypos</key>
-			<integer>1815</integer>
+			<real>1815</real>
 		</dict>
 		<key>ED18F18E-3DB7-4B1D-A7A3-17DE6EBFA83B</key>
 		<dict>
 			<key>note</key>
 			<string>Configure the workflow</string>
 			<key>xpos</key>
-			<integer>610</integer>
+			<real>610</real>
 			<key>ypos</key>
-			<integer>610</integer>
+			<real>610</real>
 		</dict>
 		<key>EF0769B1-0BDA-4D96-B640-1FA8EB1FD7BB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<real>1150</real>
 			<key>ypos</key>
-			<integer>640</integer>
+			<real>640</real>
 		</dict>
 		<key>F2AF7DA9-9371-485E-B037-DF138D6379C1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>760</integer>
+			<real>760</real>
 		</dict>
 		<key>F2D4CBD3-8C5E-42EE-903C-DDD8ADA6F33B</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>2260</integer>
+			<real>2260</real>
 		</dict>
 		<key>F6F03505-7E5B-44D3-9A34-845ABDC79BA1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>1960</integer>
+			<real>1960</real>
 		</dict>
 		<key>FA40A7DB-25B4-464C-B269-EC046612AD60</key>
 		<dict>
 			<key>note</key>
 			<string>Copy link</string>
 			<key>xpos</key>
-			<integer>2210</integer>
+			<real>2210</real>
 			<key>ypos</key>
-			<integer>1510</integer>
+			<real>1510</real>
 		</dict>
 		<key>FD181211-B1A6-463B-AF31-28A941B28F2E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<integer>1210</integer>
+			<real>1210</real>
 			<key>ypos</key>
-			<integer>760</integer>
+			<real>760</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>default_date_format</key>

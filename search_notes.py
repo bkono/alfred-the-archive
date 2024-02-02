@@ -19,7 +19,7 @@ for file in sorted_file_list:
     m_date = Tools.getDateStr(file['mtime'])
     items.setItem(
         arg=file['path'],
-        subtitle="Created: {0}, Modified: {1} (\u2318 Actions, \u2325 Paste Wiki Link, \u21E7 Quicklook)".format(c_date, m_date),
+        subtitle="Created: {0}, Modified: {1} (\u2318 Actions, \u2325 Paste Wiki Link, \u21E7 Quicklook, \u2303 Zettel Link)".format(c_date, m_date),
         title=file['title'],
         type="file",
     )
@@ -36,6 +36,13 @@ for file in sorted_file_list:
         icon_type="image",
         key="alt",
         subtitle="Paste wiki link into frontmost app",
+    )
+    items.addMod(
+        arg=file['title'],
+        icon_path="icons/link.png",
+        icon_type="image",
+        key="ctrl",
+        subtitle="Copy Zettelkasten link with ID to clipboard",
     )
     items.addItem()
 
